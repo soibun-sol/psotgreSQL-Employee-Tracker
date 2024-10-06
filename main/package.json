@@ -1,6 +1,7 @@
 {
   "name": "psotgresql-employee-tracker",
   "version": "1.0.0",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -13,10 +14,11 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "inquirer": "^11.0.2",
+    "inquirer": "^8.2.4",
     "pg": "^8.13.0"
   },
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
     "@types/inquirer": "^9.0.7",
     "@types/node": "^22.5.5",
     "@types/pg": "^8.11.10",
