@@ -8,6 +8,13 @@ import {
     addRole,
     addEmployee,
     updateEmployeeRole,
+    updateEmployeeManager,
+    deleteDepartment,
+    deleteRole,
+    deleteEmployee,
+    viewEmployeesByManager,
+    viewEmployeesByDepartment,
+    viewDepartmentBudget
 } from "./queries";
 
 const mainMenu = async () => {
@@ -24,6 +31,13 @@ const mainMenu = async () => {
                 'Add a role',
                 'Add an employee',
                 'Update an employee role',
+                'Update an employee manager',
+                'Delete a department',
+                'Delete a role',
+                'Delete an employee',
+                'View employees by manager',
+                'View employees by department',
+                'View department budget',
                 'Quit'
             ]
         }
@@ -51,9 +65,30 @@ const mainMenu = async () => {
         case 'Update an employee role':
             await updateEmployeeRole();
             break;
+        case 'Update an employee manager':
+            await updateEmployeeManager();
+            break;
+        case 'Delete a department':
+            await deleteDepartment();
+            break;
+        case 'Delete a role':
+            await deleteRole();
+            break;
+        case 'Delete an employee':
+            await deleteEmployee();
+            break;
+        case 'View employees by manager':
+            await viewEmployeesByManager();
+            break;
+        case 'View employees by department':
+            await viewEmployeesByDepartment();
+            break;
+        case 'View department budget':
+            await viewDepartmentBudget();
+            break;                            
         case 'Quit':
             client.end();
-            break;
+            process.exit();
     }
     mainMenu();
 };
