@@ -40,4 +40,4 @@
   Github: [soibun-sol](https://github.com/soibun-sol)
   Email: Khinton386@gmail.com
   Github Repo Link:https://github.com/soibun-sol/psotgreSQL-Employee-Tracker
-  Screencastify Link:https://drive.google.com/file/d/1OQKY8MuDjJTFmVkrisVwvN3ogvwqmNUe/view
+  Screencastify Link:https://drive.google.com/file/d/1OQKY8MuDjJTFmVkrisVwvN3ogvwqmNUe/view?usp=sharing
